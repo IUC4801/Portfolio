@@ -17,16 +17,16 @@ const Skill = ({ name, x, y }) => {
     )
 }
 
-const Skills = () => {
+const Certifications = () => {
     return (
         <>
-            <h2 className='font-bold text-8xl mt-64 w-full text-center'>Skills</h2>
+            <h2 className='font-bold text-7xl mt-55 w-full text-center dark:text-light'>Certifications</h2>
             <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark'>
                 <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light
                 p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light'
                     whileHover={{ scale: 1.05 }}
                 >
-                    Security
+                    Certificates
                 </motion.div>
 
                 <Skill name="Burpsuite" x="-25vw" y="2vw" />
@@ -44,4 +44,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Certifications

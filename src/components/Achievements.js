@@ -14,20 +14,20 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
             whileInView={{ y: 0 }}
             transition={{ duration: 0.5, type: "spring" }}
         >
-            <h3 className='capitalize font-bold text-2xl'>{position}&nbsp;<a href={companyLink}
+            <h3 className='capitalize font-bold text-2xl dark:text-light'>{position}&nbsp;<a href={companyLink}
                 target='_blank'
                 className='text-primary dark:text-primaryDark capitalize'
             >@{company}</a></h3>
             <span className='capitalize font-medium text-dark/75 dark:text-light/75 '>
                 {time} | {address}
             </span>
-            <p className='font-medium w-full'>
+            <p className='font-medium w-full dark:text-light'>
                 {work}
             </p>
         </motion.div>
     </li>
 }
-const Experience = () => {
+const Achievements = () => {
     const ref = useRef(null);
     const { scrollYProgress } = useScroll(
         {
@@ -37,8 +37,8 @@ const Experience = () => {
     );
     return (
         <div className='my-64'>
-            <h2 className='font-bold text-8xl mb-32 w-full text-center'>
-                Experience
+            <h2 className='font-bold text-8xl mb-32 w-full text-center dark:text-light'>
+                Achievements
             </h2>
             <div ref={ref} className='w-[75] mx-auto relative'>
                 <motion.div
@@ -79,4 +79,4 @@ const Experience = () => {
     )
 }
 
-export default Experience
+export default Achievements
