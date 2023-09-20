@@ -11,6 +11,7 @@ import Experience from '@/components/Experience'
 import Education from '@/components/Education'
 import Certificates from '@/components/Certificates'
 import Achievements from '@/components/Achievements'
+import TransitionEffect from '@/components/TransitionEffect'
 
 
 const AnimatedNumbers = ({ value }) => {
@@ -46,6 +47,7 @@ const achievements = () => {
                 <title>Achievements Page</title>
                 <meta name='description' content='Any description' />
             </Head>
+            <TransitionEffect />
             <main className='flex w-full flex-col items-center justify-center'>
                 <Layout className='pt-16'>
                     <div className='grid w-full grid-cols-8 gap-16'>
