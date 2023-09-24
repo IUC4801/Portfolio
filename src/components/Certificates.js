@@ -37,16 +37,16 @@ const Certifications = () => {
                     Certificates
                 </motion.div>
 
-                <Skill name="Burpsuite" x="-25vw" y="2vw" />
-                <Skill name="Firewall" x="-5vw" y="-10vw" />
-                <Skill name="Splunk" x="20vw" y="6vw" />
-                <Skill name="Snort" x="0vw" y="12vw" />
-                <Skill name="Python" x="-20vw" y="-15vw" />
-                <Skill name="Java" x="15vw" y="-12vw" />
-                <Skill name="ReactJS" x="32vw" y="-5vw" />
+                <Skill name="AWS Cloud Practitioner" x="-25vw" y="2vw" />
+                <Skill name="Fortinet NSE 1" x="-5vw" y="-10vw" />
+                <Skill name="Fortinet NSE 2" x="20vw" y="6vw" />
+                <Skill name="Fortinet NSE 3" x="0vw" y="12vw" />
+                <Skill name="Aviatrix Multi-Cloud Network Associate" x="-20vw" y="-15vw" />
+                <Skill name="Microsoft Azure Fundamentals" x="15vw" y="-12vw" />
+                {/* <Skill name="ReactJS" x="32vw" y="-5vw" />
                 <Skill name="NextJS" x="0vw" y="-20vw" />
                 <Skill name="NodeJS" x="-25vw" y="18vw" />
-                <Skill name="Solidity" x="18vw" y="18vw" />
+                <Skill name="Solidity" x="18vw" y="18vw" /> */}
             </div>
         </>
     )

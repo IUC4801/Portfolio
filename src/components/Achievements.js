@@ -52,31 +52,35 @@ const Achievements = () => {
                 <ul className='w-full flex flex-col items-strat justify-between ml-4 xs:ml-2'>
                     <Details
 
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="Gold Medalist" company="VIT-Bhopal"
+                        companyLink="https://vitbhopal.ac.in/"
+                        time="2019-2023" address="Bhopal, India"
+                        work="Received gold medal from VIT-Bhopal University for rankiing first in my branch among 2000+ students."
                     />
                     <Details
 
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="Research Paper Publication" company="Springer"
+                        companyLink="https://link.springer.com/chapter/10.1007/978-981-19-9858-4_13"
+                        time="2022-2023" address="Shimla, India"
+                        work="Carried extensive research on Android Malware Classification using different machine learning techniques in Python and published a research paper at Lecture Notes in Networks and Systems (LNNS) by Springer on Android
+                        Malware Classification using Federated Learning."
                     />
                     <Details
 
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="Cisco Boost 2.0 Selection" company="Cisco"
+                        companyLink="https://www.cisco.com/site/in/en/index.html"
+                        time="2022" address="Bhopal, India"
+                        work="Selected in CISCO's Cybersecurity training and recruitment program among 3000+ participants. Recognized as
+                        one of the top performers."
                     />
                     <Details
 
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="SIH Team Leader" company="SIH"
+                        companyLink="https://www.sih.gov.in/"
+                        time="2022-2022" address="Bhopal, India"
+                        work="Selected among the top 15 teams in the internal hackathon of SIH (Smart India
+                            Hackathon) and represented the college at the national level. Built an innovative
+                            web-based integration of Graphical Password Authentication."
                     />
                 </ul>
             </div>

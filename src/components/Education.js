@@ -49,28 +49,25 @@ const Education = () => {
                 <ul className='w-full flex flex-col items-strat justify-between ml-4 xs:ml-2'>
                     <Details
 
-                        type="Bachelor Of Science In Computer Science"
-                        time="2016-2020" place="Massachusetts Institute Of Technology (MIT)"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence."
+                        type="B.Tech In Computer Science Engineering with Specialization 
+                        in Cybersecurity and Digital Forensics"
+                        time="2019-2023" place="VIT-Bhopal, Bhopal"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, Cloud and Web Security,
+                        Ethical Hacking and Computer Forensics."
                     />
                     <Details
 
-                        type="Software Engineer"
-                        time="2022-Present" place="Mountain View, CA"
-                        info="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        type="Higher Secondary Education in Science Stream"
+                        time="2017-2019" place="Bankura Banga Vidyalaya, Bankura"
+                        info="Relevant courses included Physics, Chemistry, Mathematics, Biology and literature in Higher Secondary level. Passed with
+                        89% marks on state board."
                     />
                     <Details
 
-                        type="Software Engineer"
-                        time="2022-Present" place="Mountain View, CA"
-                        info="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-                    />
-                    <Details
-
-                        type="Software Engineer"
-                        time="2022-Present" place="Mountain View, CA"
-                        info="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        type="Secondary Education"
+                        time="2011-2017" place="Vivekananda Siksha Niketan High School, Bankura"
+                        info="Relevant courses included Physics, Chemistry, Mathematics, Biology, Geography, History, Computer and literature in Secondary level. Passed with
+                            95% marks on state board."
                     />
                 </ul>
             </div>

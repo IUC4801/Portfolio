@@ -95,13 +95,12 @@ const projects = () => {
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="Crypto Screener Application"
+                                title="Flaky Network Simulator"
                                 img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="/"
+                                summary="Flaky network simulator is a unique command-line tool, which is developed for simulating poor networking conditions
+                                like packet drop, jitter, throttle etc. for Windows and iOS. Python is extensively used for the development."
+                                link="https://github.com/adobe/python-flaky-network"
+                                github="https://github.com/adobe/python-flaky-network"
                                 type="Featured Project"
 
                             />
@@ -109,32 +108,32 @@ const projects = () => {
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 type="Featured Project"
-                                title="Crypto Screener Application"
+                                title="Connect - A Cross-Platform Real-Time Media Sharing Mobile Application."
                                 img={project1}
-                                link="/"
-                                github="/"
+                                link="https://github.com/IUC4801/Connect"
+                                github="https://github.com/IUC4801/Connect"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 type="Featured Project"
-                                title="Crypto Screener Application"
+                                title="Cryptoverse- An Interactive Reactjs Cryptocurrency Tracker Application"
                                 img={project1}
-                                link="/"
-                                github="/"
+                                link="cryptoverse101.netlify.app/"
+                                github="https://github.com/IUC4801/Cryptoverse"
                             />
                         </div>
 
 
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="Crypto Screener Application"
+                                title="DW-FedAvg"
                                 img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="/"
+                                summary="Dynamic Weighted Federated Averaging is an advanced approach to the traditional Federated Averaging approach,
+                                in which the weights for each local model are automatically updated based on their performance at the client side. This approach has been used
+                                for the effective classification of Android Malware."
+                                link="https://github.com/officialarijit/DW-FedAvg"
+                                github="https://github.com/officialarijit/DW-FedAvg"
                                 type="Featured Project"
 
                             />
@@ -142,19 +141,19 @@ const projects = () => {
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 type="Featured Project"
-                                title="Crypto Screener Application"
+                                title="SmartPocket - A Blockchain Based E-Wallet Application"
                                 img={project1}
-                                link="/"
-                                github="/"
+                                link="https://github.com/IUC4801/Smart-Pocket"
+                                github="https://github.com/IUC4801/Smart-Pocket"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 type="Featured Project"
-                                title="Crypto Screener Application"
+                                title="MindPeace- A Mental Health Help And Awareness Platform"
                                 img={project1}
-                                link="/"
-                                github="/"
+                                link="epics-project.vercel.app"
+                                github="https://github.com/supanthapaul/mindpeace"
                             />
                         </div>
                     </div>

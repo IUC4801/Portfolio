@@ -55,19 +55,14 @@ const about = () => {
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                             <p className='font-medium'>
-                                Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
-                                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
-                                new and innovative ways to bring my clients' visions to life.
+                                I'm Ayushi Chaudhuri, and I'm all about cybersecurity. As a Cybersecurity enthusiast and a software developer I love learning fast and fixing problems. I'm well-versed with programming languages like Python, Java, and C++, and acquire the skills of a proficient Blue Teamer and Pentester.
                             </p>
                             <p className='my-4 font-medium'>
-                                I believe that design is about more than just making things look pretty – it's about solving problems and
-                                creating intuitive, enjoyable experiences for users.
+                                I thrive in situations where I need to adapt quickly. Other than protecting my organization, I'm a whiz at networking, connecting the digital dots, and a pro at Linux, navigating complex systems with ease.
                             </p>
 
                             <p className='font-medium'>
-                                Whether I'm working on a website, mobile app, or
-                                other digital product, I bring my commitment to design excellence and user-centered thinking to
-                                every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                                Beyond my security expertise, I am a creative force in web development by using modern frameworks and technologies like Next.js, Node.js, Typescript. Tailwind CSS, Sanity.io, MongoDB etc. and in blockchain development by using Solidity, Ganache, HardHat etc. Currently serving as an SDE 1 at Adobe, I am a cybersecurity luminary in the making and ready to secure the digital world's future.
                             </p>
                         </div>
                         <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
@@ -83,19 +78,19 @@ const about = () => {
                         xl:items-center md:order-3'>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={50} />+
+                                    <AnimatedNumbers value={5} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75
                                 xl:text-center md:text-lg sm:text-base xs:text-sm
-                                '>satisfied clients</h2>
+                                '>CTFs Participation</h2>
                             </div>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={40} />+
+                                    <AnimatedNumbers value={20} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75
                                 xl:text-center md:text-lg sm:text-base xs:text-sm
-                                '>projects</h2>
+                                '>projects completed</h2>
                             </div>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>

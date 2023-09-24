@@ -52,31 +52,39 @@ const Experience = () => {
                 <ul className='w-full flex flex-col items-strat justify-between ml-4 xs:ml-2'>
                     <Details
 
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="Member of Technical Staff-1" company="Adobe"
+                        companyLink="https://www.adobe.com/in/"
+                        time="2023-Present" address="Bangalore, India"
+                        work="Working on the Illustrator Web team of Adobe. Working majorly on the development of various features of Illustrator on Web like zoom-pan,
+                        their associated feature flags development in C++, TypeScript and WASM and testing and automation tests development using Selenium framework of Python."
                     />
                     <Details
 
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="Product Intern" company="Adobe"
+                        companyLink="https://www.adobe.com/in/"
+                        time="2023-2023" address="Bangalore, India"
+                        work="Developed an unique command-line tool, named Flaky-Network Simulator for simulating poor networking conditions
+                        like packet drop, jitter, throttle etc. for Windows and iOS. Developed the automation scripts for the flaky-network simulator for the Windows and iOS.
+                        Worked mainly on Python and C++ for development and Jenkins for automation purposes."
                     />
                     <Details
 
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="Product Intern" company="Adobe"
+                        companyLink="https://www.adobe.com/in/"
+                        time="2022-2022" address="Remote"
+                        work="Worked as a product development intern on SDK-testing team of Adobe.
+                        Developed stored procedures and SQL queries for stability dashboard.
+                        Automated Jenkins Pipeline by developing python script.
+                        Worked on Splunk and Metabase for dashboard visualization."
                     />
                     <Details
 
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="Pentesting Intern" company="Virtually Testing Foundation"
+                        companyLink="https://vt.foundation/"
+                        time="2021-2021" address="Remote"
+                        work="Worked on finding vulnerabilities on the websites of VTF.
+                        Worked on pentest tools like Burpsuite, OWASP ZAP, Wireshark etc.
+                        Worked on publishing pentesting reports on compliant with different security compliances based on the security findings."
                     />
                 </ul>
             </div>
