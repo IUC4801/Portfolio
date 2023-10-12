@@ -6,7 +6,12 @@ import Image from 'next/image'
 import React from 'react'
 import { GithubIcon } from '@/components/Icons'
 // @ts-ignore
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import flaky from "../../public/images/projects/Flaky-windows.jpeg"
+import connect from "../../public/images/projects/connect.jpeg"
+import crypto from "../../public/images/projects/Cryptoverse.png"
+import FL from "../../public/images/projects/FL.png"
+import smart from "../../public/images/projects/smartpocket.png"
+import mindpeace from "../../public/images/projects/mindpeace.png"
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -21,7 +26,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             <Link href={link} target='_blank'
                 className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'
             >
-                <Image src={img} alt={title} className='w-full h-auto' />
+                <Image src={img} alt={title} className='flex w-full h-[350px]' />
             </Link>
 
             <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
@@ -56,7 +61,7 @@ const Project = ({ type, title, img, link, github }) => {
             <Link href={link} target='_blank'
                 className='w-full cursor-pointer overflow-hidden rounded-lg'
             >
-                <Image src={img} alt='title' className='w-full h-auto' />
+                <Image src={img} alt='title' className='flex w-[1400px] h-[350px]' />
             </Link>
 
             <div className='w-full flex flex-col items-start justify-between mt-4'>
@@ -96,7 +101,7 @@ const projects = () => {
                         <div className='col-span-12'>
                             <FeaturedProject
                                 title="Flaky Network Simulator"
-                                img={project1}
+                                img={flaky}
                                 summary="Flaky network simulator is a unique command-line tool, which is developed for simulating poor networking conditions
                                 like packet drop, jitter, throttle etc. for Windows and iOS. Python is extensively used for the development."
                                 link="https://github.com/adobe/python-flaky-network"
@@ -109,7 +114,7 @@ const projects = () => {
                             <Project
                                 type="Featured Project"
                                 title="Connect - A Cross-Platform Real-Time Media Sharing Mobile Application."
-                                img={project1}
+                                img={connect}
                                 link="https://github.com/IUC4801/Connect"
                                 github="https://github.com/IUC4801/Connect"
                             />
@@ -118,7 +123,7 @@ const projects = () => {
                             <Project
                                 type="Featured Project"
                                 title="Cryptoverse- An Interactive Reactjs Cryptocurrency Tracker Application"
-                                img={project1}
+                                img={crypto}
                                 link="cryptoverse101.netlify.app/"
                                 github="https://github.com/IUC4801/Cryptoverse"
                             />
@@ -128,7 +133,7 @@ const projects = () => {
                         <div className='col-span-12'>
                             <FeaturedProject
                                 title="DW-FedAvg"
-                                img={project1}
+                                img={FL}
                                 summary="Dynamic Weighted Federated Averaging is an advanced approach to the traditional Federated Averaging approach,
                                 in which the weights for each local model are automatically updated based on their performance at the client side. This approach has been used
                                 for the effective classification of Android Malware."
@@ -142,7 +147,7 @@ const projects = () => {
                             <Project
                                 type="Featured Project"
                                 title="SmartPocket - A Blockchain Based E-Wallet Application"
-                                img={project1}
+                                img={smart}
                                 link="https://github.com/IUC4801/Smart-Pocket"
                                 github="https://github.com/IUC4801/Smart-Pocket"
                             />
@@ -151,7 +156,7 @@ const projects = () => {
                             <Project
                                 type="Featured Project"
                                 title="MindPeace- A Mental Health Help And Awareness Platform"
-                                img={project1}
+                                img={mindpeace}
                                 link="epics-project.vercel.app"
                                 github="https://github.com/supanthapaul/mindpeace"
                             />

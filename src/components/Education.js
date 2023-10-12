@@ -53,7 +53,7 @@ const Education = () => {
                         in Cybersecurity and Digital Forensics"
                         time="2019-2023" place="VIT-Bhopal, Bhopal"
                         info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, Cloud and Web Security,
-                        Ethical Hacking and Computer Forensics."
+                        Ethical Hacking and Computer Forensics. Passed with 9.34 CGPA."
                     />
                     <Details
 

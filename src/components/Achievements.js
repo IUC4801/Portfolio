@@ -55,7 +55,7 @@ const Achievements = () => {
                         position="Gold Medalist" company="VIT-Bhopal"
                         companyLink="https://vitbhopal.ac.in/"
                         time="2019-2023" address="Bhopal, India"
-                        work="Received gold medal from VIT-Bhopal University for rankiing first in my branch among 2000+ students."
+                        work="Received gold medal from VIT-Bhopal University for ranking first in my branch among 2000+ students."
                     />
                     <Details
 

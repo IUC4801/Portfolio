@@ -3,7 +3,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 // @ts-ignore
-import profilePic from "../../public/images/profile/profile-pic-2.png"
+import profilePic from "../../public/images/profile/profile-pic-3.jpeg"
 import React, { useEffect, useRef } from 'react'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/components/Skills'
