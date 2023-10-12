@@ -8,7 +8,7 @@ import { GithubIcon } from '@/components/Icons'
 // @ts-ignore
 import flaky from "../../public/images/projects/Flaky-windows.jpeg"
 import connect from "../../public/images/projects/connect.jpeg"
-import crypto from "../../public/images/projects/Cryptoverse.png"
+import crypto from "../../public/images/projects/cryptoverse.png"
 import FL from "../../public/images/projects/FL.png"
 import smart from "../../public/images/projects/smartpocket.png"
 import mindpeace from "../../public/images/projects/mindpeace.png"
